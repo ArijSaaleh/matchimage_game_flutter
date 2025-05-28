@@ -72,7 +72,7 @@ class ImagePage extends StatelessWidget {
                   },
                 ),
               ),
-            ),
+            ), //expanded
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(20),
