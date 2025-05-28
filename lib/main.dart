@@ -32,13 +32,23 @@ class ImagePage extends StatelessWidget {
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Image(image: AssetImage("images/image-1.png")),
+                child: TextButton(
+                  child: Image.asset("images/image-1.png"),
+                  onPressed: () {
+                    print("Left button pressed");
+                  },
+                ),
               ),
             ),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Image(image: AssetImage("images/image-2.png")),
+                child: TextButton(
+                  child: Image(image: AssetImage("images/image-2.png")),
+                  onPressed: () {
+                    print("Right button pressed");
+                  },
+                ),
               ),
             ),
           ],
