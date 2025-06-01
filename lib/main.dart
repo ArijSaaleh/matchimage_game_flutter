@@ -71,7 +71,7 @@ class ImagePage extends StatelessWidget {
                     print("Right button pressed");
                   },
                 ),
-              ),
+              ), //padding
             ), //expanded
             Expanded(
               child: Padding(
