@@ -70,7 +70,7 @@ class ImagePage extends StatelessWidget {
                   onPressed: () {
                     print("Right button pressed");
                   },
-                ),
+                ), //testbutton
               ), //padding
             ), //expanded
             Expanded(
