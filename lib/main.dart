@@ -68,7 +68,7 @@ class ImagePage extends StatelessWidget {
                 child: TextButton(
                   child: Image(image: AssetImage("images/image-2.png")),
                   onPressed: () {
-                    print("Right button pressed");
+                    print("Right button pressed!!");
                   },
                 ), //testbutton
               ), //padding
